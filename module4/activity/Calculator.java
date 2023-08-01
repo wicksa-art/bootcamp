@@ -1,10 +1,6 @@
-/**
- *
- */
 package sef.module4.activity;
 
 public class Calculator {
-
 
 	private String calculatorType;
 	public static final String CALC_TYPE_BASIC = "Basic";
@@ -17,50 +13,41 @@ public class Calculator {
 		this.calculatorType = calculatorType;
 	}
 
-	// Getter for CalculatorType
 	public String getCalculatorType() {
 		return calculatorType;
 	}
 
-	// Setter for CalculatorType
 	public void setCalculatorType(String calculatorType) {
 		this.calculatorType = calculatorType;
 	}
 
-	// Add 
 	public int add(int x, int y) {
-        return x + y;
+		return x + y;
 	}
 
-	// Subtract
 	public int subtract(int x, int y) {
-		int diff = 0;
 		if (x > y) {
-			diff = x - y;
+			return x - y;
 		} else {
-			diff = y - x;
+			return y - x;
 		}
-
-		return diff;
 	}
 
-	// Multiply
 	public int multiply(int[] numbers) {
-		int temp = 1;
-
+		int result = 1;
 		for (int number : numbers) {
-			temp = temp * number;
+			if(number == 0) {
+				return 0;
+			}
+			result *= number;
 		}
-		return temp;
-
+		return result;
 	}
 
-	// Divide
 	public int divide(int x, int y) {
 		if (y == 0) {
 			throw new IllegalArgumentException("Cannot divide by zero!");
-		} else {
-			return x / y;
 		}
+		return x / y;
 	}
 }

@@ -14,7 +14,7 @@ public class FinalizeSample {
 		System.out.println("Garbage Collect");
 	}
 	
-	public static void main(String[] arg) throws IOException{
+	public static void main(String arg[]) throws IOException{
 		new FinalizeSample();
 		System.gc();
 		System.out.println("Exit");

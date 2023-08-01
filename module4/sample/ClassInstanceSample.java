@@ -4,7 +4,7 @@ import java.util.Calendar;
 
 public class ClassInstanceSample {
 
-	public static void main(String[] arg){
+	public static void main(String arg[]){
 		
 		//Object instance creation using 'new' and passing parameters to constructors
 		Person him = new Person("John Doe");
