@@ -1,11 +1,13 @@
-import org.springframework.web.bind.annotation.GetMapping
-import org.springframework.web.bind.annotation.RestController
+package com.example.demo;
+
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-class HelloController {
+public class HelloController {
 
     @GetMapping("/hello")
-    fun sayHello(): String {
-        return "Hello, Spring Boot!"
+    public String sayHello() {
+        return "Hello, Spring Boot!";
     }
 }
