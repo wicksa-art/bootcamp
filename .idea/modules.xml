@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/afternoontask/afternoontask.iml" filepath="$PROJECT_DIR$/afternoontask/afternoontask.iml" />
       <module fileurl="file://$PROJECT_DIR$/bootcamp.iml" filepath="$PROJECT_DIR$/bootcamp.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringBoot/demo/src/main/main.iml" filepath="$PROJECT_DIR$/SpringBoot/demo/src/main/main.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringBoot/demo/src/test/test.iml" filepath="$PROJECT_DIR$/SpringBoot/demo/src/test/test.iml" />
