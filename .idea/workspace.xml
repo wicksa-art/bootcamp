@@ -5,10 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9d1a3a88-d678-48d3-9a76-860c900e17fd" name="Changes" comment="">
+<<<<<<< Updated upstream
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SpringBoot/demo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SpringBoot/demo/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SpringBoot/demo/src/main/java/com/example/demo/DemoApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringBoot/demo/src/main/java/com/example/demo/DemoApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SpringBoot/demo/src/main/java/com/example/demo/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringBoot/demo/src/main/java/com/example/demo/HelloController.java" afterDir="false" />
+=======
+      <change beforePath="$PROJECT_DIR$/afternoontask/src/Day4Task.java" beforeDir="false" afterPath="$PROJECT_DIR$/afternoontask/src/Day4Task.java" afterDir="false" />
+>>>>>>> Stashed changes
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
