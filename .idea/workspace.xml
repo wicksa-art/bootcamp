@@ -6,6 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="1ed2d6d0-130e-4b0d-8a21-ae158e0e0ebf" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Log4j1/logs/app.log" beforeDir="false" afterPath="$PROJECT_DIR$/Log4j1/logs/app.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Log4j1/src/main/java/org/example/BankAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/Log4j1/src/main/java/org/example/BankAccount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Log4j1/src/test/java/org/example/BankAccountTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Log4j1/src/test/java/org/example/BankAccountTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,10 +21,10 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": -1
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: -1
+}</component>
   <component name="ProjectId" id="2TTFpQTuQaOtc5mvCV6lxttuyYJ" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -34,7 +37,8 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main"
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/kleym/Documents/GitHub/bootcamp/Log4j1"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />

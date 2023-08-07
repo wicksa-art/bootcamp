@@ -70,3 +70,111 @@
 15:42:52.336 [main] INFO  BankAccount - New account created. Initial balance: 100.0
 15:42:52.336 [main] INFO  BankAccount - Withdrawn: 50.0. New balance: 50.0
 15:42:52.336 [main] INFO  BankAccount - Balance checked. Current balance: 50.0
+16:35:32.316 [main] INFO  BankAccount - New account created. Initial balance: 100.0
+16:35:32.321 [main] ERROR BankAccount - Withdrawal amount must be positive
+16:35:32.326 [main] INFO  BankAccount - New account created. Initial balance: 100.0
+16:35:32.327 [main] INFO  BankAccount - Deposited: 50.0. New balance: 150.0
+16:35:32.327 [main] INFO  BankAccount - Balance checked. Current balance: 150.0
+16:35:32.330 [main] INFO  BankAccount - New account created. Initial balance: 100.0
+16:35:32.331 [main] ERROR BankAccount - Insufficient balance for withdrawal
+16:35:32.332 [main] INFO  BankAccount - New account created. Initial balance: 100.0
+16:35:32.332 [main] ERROR BankAccount - Deposit amount must be positive
+16:35:32.333 [main] INFO  BankAccount - New account created. Initial balance: 100.0
+16:35:32.333 [main] INFO  BankAccount - Withdrawn: 50.0. New balance: 50.0
+16:35:32.333 [main] INFO  BankAccount - Balance checked. Current balance: 50.0
+16:35:59.473 [main] INFO  BankAccount - New account created. Initial balance: 100.0
+16:35:59.478 [main] ERROR BankAccount - Withdrawal amount must be positive
+16:35:59.483 [main] INFO  BankAccount - New account created. Initial balance: 100.0
+16:35:59.484 [main] INFO  BankAccount - Deposited: 50.0. New balance: 150.0
+16:35:59.484 [main] INFO  BankAccount - Balance checked. Current balance: 150.0
+16:35:59.486 [main] INFO  BankAccount - New account created. Initial balance: 100.0
+16:35:59.486 [main] ERROR BankAccount - Insufficient balance for withdrawal
+16:35:59.488 [main] INFO  BankAccount - New account created. Initial balance: 100.0
+16:35:59.488 [main] ERROR BankAccount - Deposit amount must be positive
+16:35:59.489 [main] INFO  BankAccount - New account created. Initial balance: 100.0
+16:35:59.489 [main] INFO  BankAccount - Withdrawn: 50.0. New balance: 50.0
+16:35:59.489 [main] INFO  BankAccount - Balance checked. Current balance: 50.0
+13:54:43.411 [main] INFO  BankAccount - New account created. Initial balance: 100.0
+13:54:43.416 [main] ERROR BankAccount - Withdrawal amount must be positive
+13:54:43.422 [main] INFO  BankAccount - New account created. Initial balance: 100.0
+13:54:43.423 [main] INFO  BankAccount - Deposited: 50.0. New balance: 150.0
+13:54:43.423 [main] INFO  BankAccount - Balance checked. Current balance: 150.0
+13:54:43.425 [main] INFO  BankAccount - New account created. Initial balance: 100.0
+13:54:43.425 [main] ERROR BankAccount - Insufficient balance for withdrawal
+13:54:43.427 [main] INFO  BankAccount - New account created. Initial balance: 100.0
+13:54:43.427 [main] ERROR BankAccount - Deposit amount must be positive
+13:54:43.428 [main] INFO  BankAccount - New account created. Initial balance: 100.0
+13:54:43.429 [main] INFO  BankAccount - Withdrawn: 50.0. New balance: 50.0
+13:54:43.429 [main] INFO  BankAccount - Balance checked. Current balance: 50.0
+14:08:36.619 [main] INFO  BankAccount - New account created. Initial balance: 100.0
+14:08:36.627 [main] ERROR BankAccount - Withdrawal amount must be positive
+14:08:36.634 [main] INFO  BankAccount - New account created. Initial balance: 100.0
+14:08:36.635 [main] INFO  BankAccount - Deposited: 50.0. New balance: 150.0
+14:08:36.635 [main] INFO  BankAccount - Balance checked. Current balance: 150.0
+14:08:36.637 [main] INFO  BankAccount - New account created. Initial balance: 100.0
+14:08:36.637 [main] ERROR BankAccount - Insufficient balance for withdrawal
+14:08:36.638 [main] INFO  BankAccount - New account created. Initial balance: 100.0
+14:08:36.639 [main] ERROR BankAccount - Deposit amount must be positive
+14:08:36.639 [main] INFO  BankAccount - New account created. Initial balance: 100.0
+14:08:36.640 [main] INFO  BankAccount - Withdrawn: 50.0. New balance: 50.0
+14:08:36.640 [main] INFO  BankAccount - Balance checked. Current balance: 50.0
+14:16:32.154 [main] INFO  BankAccount - Bank account created with balance: 100.0
+14:16:32.158 [main] INFO  BankAccount - Withdraw successful: 50.0
+14:16:32.158 [main] INFO  BankAccount - Balance checked: 50.0
+14:16:32.166 [main] INFO  BankAccount - Bank account created with balance: 100.0
+14:16:32.167 [main] ERROR BankAccount - Withdraw unsuccessful: Insufficient balance
+14:16:32.173 [main] INFO  BankAccount - Bank account created with balance: 100.0
+14:16:32.173 [main] WARN  BankAccount - Deposit unsuccessful: Amount should be greater than 0
+14:16:32.175 [main] INFO  BankAccount - Bank account created with balance: 100.0
+14:16:32.177 [main] INFO  BankAccount - Deposit successful: 50.0
+14:16:32.177 [main] INFO  BankAccount - Balance checked: 150.0
+14:17:07.944 [main] INFO  BankAccount - Bank account created with balance: 100.0
+14:17:07.947 [main] INFO  BankAccount - Withdraw successful: 50.0
+14:17:07.948 [main] INFO  BankAccount - Balance checked: 50.0
+14:17:07.957 [main] INFO  BankAccount - Bank account created with balance: 100.0
+14:17:07.958 [main] ERROR BankAccount - Withdraw unsuccessful: Insufficient balance
+14:17:07.963 [main] INFO  BankAccount - Bank account created with balance: 100.0
+14:17:07.964 [main] WARN  BankAccount - Deposit unsuccessful: Amount should be greater than 0
+14:17:07.967 [main] INFO  BankAccount - Bank account created with balance: 100.0
+14:17:07.967 [main] INFO  BankAccount - Deposit successful: 50.0
+14:17:07.967 [main] INFO  BankAccount - Balance checked: 150.0
+14:23:01.886 [main] INFO  BankAccount - New account created with balance: 100.0
+14:23:01.890 [main] INFO  BankAccount - Withdrew 50.0. Current balance: 50.0
+14:23:01.899 [main] INFO  BankAccount - New account created with balance: 100.0
+14:23:01.900 [main] ERROR BankAccount - Cannot deposit negative amounts.
+14:23:01.902 [main] INFO  BankAccount - New account created with balance: 100.0
+14:23:01.902 [main] ERROR BankAccount - Cannot withdraw more than the current balance.
+14:23:01.902 [main] INFO  BankAccount - New account created with balance: 100.0
+14:23:01.904 [main] INFO  BankAccount - Deposited 50.0. Current balance: 150.0
+14:23:07.802 [main] INFO  BankAccount - New account created with balance: 100.0
+14:23:07.806 [main] INFO  BankAccount - Withdrew 50.0. Current balance: 50.0
+14:23:07.814 [main] INFO  BankAccount - New account created with balance: 100.0
+14:23:07.815 [main] ERROR BankAccount - Cannot deposit negative amounts.
+14:23:07.816 [main] INFO  BankAccount - New account created with balance: 100.0
+14:23:07.816 [main] ERROR BankAccount - Cannot withdraw more than the current balance.
+14:23:07.817 [main] INFO  BankAccount - New account created with balance: 100.0
+14:23:07.818 [main] INFO  BankAccount - Deposited 50.0. Current balance: 150.0
+14:50:40.090 [main] INFO  BankAccount - New account created with balance: 100.0
+14:50:40.095 [main] INFO  BankAccount - Withdrew 50.0. Current balance: 50.0
+14:50:40.104 [main] INFO  BankAccount - New account created with balance: 100.0
+14:50:40.105 [main] ERROR BankAccount - Cannot deposit negative amounts.
+14:50:40.106 [main] INFO  BankAccount - New account created with balance: 100.0
+14:50:40.107 [main] ERROR BankAccount - Cannot withdraw more than the current balance.
+14:50:40.108 [main] INFO  BankAccount - New account created with balance: 100.0
+14:50:40.108 [main] INFO  BankAccount - Deposited 50.0. Current balance: 150.0
+14:52:20.642 [main] INFO  BankAccount - New account created with balance: 100.0
+14:52:20.644 [main] INFO  BankAccountTest - Account setup with balance: 100.0
+14:52:20.646 [main] INFO  BankAccount - Withdrew 50.0. Current balance: 50.0
+14:52:20.646 [main] INFO  BankAccountTest - Withdrew 50. Balance: 50.0
+14:52:20.656 [main] INFO  BankAccount - New account created with balance: 100.0
+14:52:20.656 [main] INFO  BankAccountTest - Account setup with balance: 100.0
+14:52:20.656 [main] INFO  BankAccountTest - Trying to deposit negative amount.
+14:52:20.657 [main] ERROR BankAccount - Cannot deposit negative amounts.
+14:52:20.658 [main] INFO  BankAccount - New account created with balance: 100.0
+14:52:20.658 [main] INFO  BankAccountTest - Account setup with balance: 100.0
+14:52:20.659 [main] INFO  BankAccountTest - Trying to withdraw more than the balance.
+14:52:20.659 [main] ERROR BankAccount - Cannot withdraw more than the current balance.
+14:52:20.661 [main] INFO  BankAccount - New account created with balance: 100.0
+14:52:20.661 [main] INFO  BankAccountTest - Account setup with balance: 100.0
+14:52:20.661 [main] INFO  BankAccount - Deposited 50.0. Current balance: 150.0
+14:52:20.661 [main] INFO  BankAccountTest - Deposited 50. Balance: 150.0
