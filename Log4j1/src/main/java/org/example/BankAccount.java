@@ -1,14 +1,23 @@
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+import java.sql.SQLException;
 
 public class BankAccount {
-
+    private int id;
     private double balance;
+    private DBManager db;
     private static final Logger logger = LogManager.getLogger(BankAccount.class);
 
-    public BankAccount(double initialBalance) {
+    public BankAccount(int id, double initialBalance, DBManager db) throws SQLException {
+        this.id = id;
         this.balance = initialBalance;
-        logger.info("New account created with balance: " + initialBalance);
+        this.db = db;
+        db.createAccount(this);
+        logger.info("New account created with id: " + id + ", balance: " + initialBalance);
+    }
+
+    public int getId() {
+        return id;
     }
 
     public void deposit(double amount) {

@@ -3,32 +3,34 @@ import org.junit.jupiter.api.Test;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
+import java.sql.SQLException;
+
 import static org.junit.jupiter.api.Assertions.*;
 
 public class BankAccountTest {
-
     private BankAccount account;
+    private DBManager db;
     private static final Logger logger = LogManager.getLogger(BankAccountTest.class);
 
     @BeforeEach
-    public void setup() {
-        account = new BankAccount(100);
-        logger.info("Account setup with balance: " + account.getBalance());
+    public void setup() throws SQLException {
+        db = new DBManager("jdbc:mysql://localhost:3306/testdb", "root", "pMh47KTYf~3;y");
+        account = new BankAccount(100, 1000.00, db);
     }
 
+
     @Test
-    public void testDeposit() {
+    public void testDeposit() throws SQLException {
         account.deposit(50);
-        logger.info("Deposited 50. Balance: " + account.getBalance());
         assertEquals(150, account.getBalance());
     }
 
     @Test
-    public void testWithdraw() {
+    public void testWithdraw() throws SQLException {
         account.withdraw(50);
-        logger.info("Withdrew 50. Balance: " + account.getBalance());
         assertEquals(50, account.getBalance());
     }
+
 
     @Test
     public void testDepositNegativeAmount() {
